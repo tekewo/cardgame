@@ -31,7 +31,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 111743779806657011}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -242,7 +242,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 111743779806657011}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -377,7 +377,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 111743779806657011}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -512,7 +512,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 111743779806657011}
-  m_RootOrder: 1
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -567,6 +567,8 @@ GameObject:
   m_Component:
   - component: {fileID: 111743779806657011}
   - component: {fileID: 2539297092436114419}
+  - component: {fileID: -6129305774017035008}
+  - component: {fileID: 6939652855186383532}
   m_Layer: 5
   m_Name: Card
   m_TagString: Untagged
@@ -587,11 +589,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1706737983838893442}
-  - {fileID: 6897405706970500919}
-  - {fileID: 8484152261224921596}
-  - {fileID: 101472839210718918}
-  - {fileID: 1203713415082982118}
   - {fileID: 1903113472919439322}
+  - {fileID: 101472839210718918}
+  - {fileID: 8484152261224921596}
+  - {fileID: 1203713415082982118}
+  - {fileID: 6897405706970500919}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -608,6 +610,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7223006628621352755}
   m_CullTransparentMesh: 1
+--- !u!114 &-6129305774017035008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7223006628621352755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be34f070018d71b45a7b42d7a275e879, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6939652855186383532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7223006628621352755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b002dcd2676400429c52bad963246cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 4083083208855381779}
+  hpText: {fileID: 2072462453002248102}
+  atkText: {fileID: 5278144490486255665}
+  costText: {fileID: 1525555098536179598}
+  iconImage: {fileID: 426652192535425365}
 --- !u!1 &8803987803895525896
 GameObject:
   m_ObjectHideFlags: 0
