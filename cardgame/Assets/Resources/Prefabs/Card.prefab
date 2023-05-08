@@ -568,7 +568,7 @@ GameObject:
   - component: {fileID: 111743779806657011}
   - component: {fileID: 2539297092436114419}
   - component: {fileID: -6129305774017035008}
-  - component: {fileID: 6939652855186383532}
+  - component: {fileID: 2906489967279675676}
   m_Layer: 5
   m_Name: Card
   m_TagString: Untagged
@@ -622,7 +622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be34f070018d71b45a7b42d7a275e879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6939652855186383532
+--- !u!114 &2906489967279675676
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
