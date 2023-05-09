@@ -15,6 +15,6 @@ public class GameManager : MonoBehaviour
     void CreateCard(Transform hand)
     {
         CardController card = Instantiate(cardprefab, hand, false);
-        card.Init(2);
+        card.Init(1);
     }
 }
